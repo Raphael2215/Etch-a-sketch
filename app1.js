@@ -79,13 +79,13 @@ function changeColor(e) {
 }
 
 function activateButton(newMode) {
-  if (currentMode === 'RGB') {
+  if (currentMode === 'rainbow') {
     RGB.classList.remove('active')
   } else if (currentMode === 'color') {
     colorBtn.classList.remove('active')
   }
 
-  if (newMode === 'RGB') {
+  if (newMode === 'rainbow') {
     RGB.classList.add('active')
   } else if (newMode === 'color') {
     colorBtn.classList.add('active')
